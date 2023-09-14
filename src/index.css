@@ -1,8 +1,27 @@
 body {
   margin: 0;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.922);
 }
 
 @font-face {
   font-family: 'Pixel';
   src: url('font/Pixel-LCD-7.woff') format('woff');
+}
+
+h1{
+  margin-left: 4rem;
+  font-family: 'Pixel';
+  src: url('font/Pixel-LCD-7.woff') format('woff');
+  color: aliceblue;
+  background-color: transparent;
+}
+
+.hint{
+  font-family: 'Pixel';
+  src: url('font/Pixel-LCD-7.woff') format('woff');
+  margin: 0;
+  padding: 0;
+  color: azure;
+  background-color: transparent;
 }
