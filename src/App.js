@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Tetris from './components/Tetris';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+const App = () => (
+  <div className="App">
+    <h1>USERFACET</h1>
+    <Tetris />
+    <div>
+      <h2>Developed by Souptik Datta! </h2>
+      <h4>GAME HINT: Use Brain to Calculate : Number of Blocks = WORD LENGTH .....WE : 2 , DESIGN : 6</h4>
+      <h3>Given string: WE DESIGN AND DEVELOP APPLICATIONS THAT RUN THE WORLD AND SHOWCASE THE FUTURE</h3>
     </div>
-  );
-}
+  </div>
+);
 
 export default App;
